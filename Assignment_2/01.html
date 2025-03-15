@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/Nutrition_Planner-removebg-preview.png" alt="Nutrition Planner Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Custom">Custom</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Works">Works</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Signup" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="Home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to our AI-Based Nutrition Planner.</h1>
+            <p>Welcome to our AI-Based Nutrition Planner.
+
+              Our cutting-edge service uses artificial intelligence to generate meal plans tailored to your unique<br> dietary preferences and health goals.
+              Whether you're looking to lose weight, gain muscle, improve energy levels, or follow a specific eating <br> 
+               plan (like keto, vegan, or gluten-free), we've got you covered.</p>
+            <button>START</button>
+        </div>
+    </section>
+
+    <section id="About" class="about-section">
+      <div class="about-content">
+          <h2>About Us</h2>
+          <p>
+              At <strong>Nutrition Planner</strong>, we are dedicated to making healthy eating simple, personalized, and accessible. 
+              Our AI-powered meal planner takes into account your dietary preferences, health goals, and nutritional needs to create meal plans 
+              that fit your lifestyle. Whether you're looking to lose weight, gain muscle, or simply eat healthier, we’ve got you covered.  
+          </p>
+          <p>
+              Our mission is to empower individuals with the right tools and knowledge to make informed food choices. 
+              Let us help you on your journey to better health—one meal at a time!
+          </p>
+      </div>
+    </section>
+    <section id="Signup" class="signup-section">
+    <div class="signup-container">
+        <h1>SIGN-UP</h1>
+        <form>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">SIGN-UP</button>
+        </form>
+    </div>
+    </section>
+
+    <section id="Custom" class="custom-plan-section">
+    <div class="custom-plan-container">
+        <h1>Build Custom Plan</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="fat">Fat%</label>
+                <input type="text" id="fat" name="fat" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" required>
+                
+                <label for="goal">Goal</label>
+                <input type="text" id="goal" name="goal" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="weight">Weight</label>
+                <input type="text" id="weight" name="weight" required>
+                
+                <label for="timeline">Timeline</label>
+                <input type="text" id="timeline" name="timeline" required>
+            </div>
+            
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    </section>
+
+  <main>
+    <section id="Works" class="how-it-works">
+        <h1>How It Works</h1>
+        <p>We provide a step-by-step guide to help you build a personalized nutrition plan.</p>
+        
+        <div class="steps-container">
+            <div class="step">
+                <h2>01</h2>
+                <h3>Initial Consultation</h3>
+                <p>We start by identifying goals through a one-on-one consultation.</p>
+            </div>
+            <div class="step">
+                <h2>02</h2>
+                <h3>Assessing Your Needs</h3>
+                <p>We assess your lifestyle and create a personalized nutrition plan.</p>
+            </div>
+            <div class="step">
+                <h2>03</h2>
+                <h3>Personalized Nutrition Plan</h3>
+                <p>Based on assessment, we develop a tailored nutrition plan.</p>
+            </div>
+            <div class="step">
+                <h2>04</h2>
+                <h3>Meal Planning and Recipes</h3>
+                <p>We provide weekly meal plans with delicious recipes.</p>
+            </div>
+            <div class="step">
+                <h2>05</h2>
+                <h3>Ongoing Support</h3>
+                <p>Continuous support from experts to help you stay on track.</p>
+            </div>
+            <div class="step">
+                <h2>06</h2>
+                <h3>Progress Tracking</h3>
+                <p>Track your progress with our interactive tools and guidance.</p>
+            </div>
+            <div class="step">
+                <h2>07</h2>
+                <h3>Regular Check-ins</h3>
+                <p>Scheduled check-ins ensure accountability and progress.</p>
+            </div>
+            <div class="step">
+                <h2>08</h2>
+                <h3>Education and Resources</h3>
+                <p>Access to expert resources, articles, and nutrition guides.</p>
+            </div>
+            <div class="step">
+                <h2>09</h2>
+                <h3>Fine-Tuning and Adjustments</h3>
+                <p>We adjust your plan as needed to ensure continued success.</p>
+            </div>
+            <div class="step">
+                <h2>10</h2>
+                <h3>Sustainable Lifestyle Habits</h3>
+                <p>We help you build lifelong healthy habits for success.</p>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <main class="blog">
+    <section id="Blog" class="blog-section">
+      <h1>Our Blogs</h1>
+      <p class="intro-text">
+      Explore our latest articles on nutrition, healthy living, and meal planning.
+      </p>
+
+    <div class="blog-container">
+      <!-- Blog Post 1 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>Weight Loss Tips</h2>
+          <p>
+            Discover practical advice and strategies to kickstart your weight loss journey.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/01.png" alt="Weight Loss Tips" />
+        </div>
+      </article>
+
+      <!-- Blog Post 2 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>10 Effective Strategies for Sustainable Weight Loss</h2>
+          <p>
+            Learn how to make lasting changes for healthier living and weight management.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/02.png" alt="Sustainable Weight Loss" />
+        </div>
+      </article>
+
+      <!-- Blog Post 3 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>Healthy Eating</h2>
+          <p>
+            A guide to incorporating nutrient-rich foods into your daily meals.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/03.png" alt="Healthy Eating" />
+        </div>
+      </article>
+
+      <!-- Blog Post 4 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>Meal Planning and Prep</h2>
+          <p>
+            Save time and money by learning the essentials of weekly meal prepping.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/04.png" alt="Meal Planning" />
+        </div>
+      </article>
+
+      <!-- Blog Post 5 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>Understanding Macronutrients</h2>
+          <p>
+            Get to know proteins, fats, and carbs to optimize your health goals.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/05.png" alt="Macronutrients" />
+        </div>
+      </article>
+
+      <!-- Blog Post 6 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>Plant-Based Diet</h2>
+          <p>
+            Explore the benefits of incorporating more plant-based meals into your routine.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/06.png" alt="Plant-Based Diet" />
+        </div>
+      </article>
+
+      <!-- Blog Post 7 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>Healthy Snacks on the Go</h2>
+          <p>
+            Quick and nutritious snack ideas to keep you energized throughout the day.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/07.png" alt="Healthy Snacks" />
+        </div>
+      </article>
+
+      <!-- Blog Post 8 -->
+      <article class="blog-card">
+        <div class="blog-info">
+          <h2>Mindful Eating Habits</h2>
+          <p>
+            Learn how to be more present during meals and develop a healthier relationship with food.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-image">
+          <img src="image/08.png" alt="Mindful Eating" />
+        </div>
+        </article>
+      </div>
+    </section>
+  </main>
+ 
+<!-- Pricing Section -->
+  <main class="pricing">
+    <section id="Pricing" class="pricing-section">
+    <h1>Our Pricing</h1>
+    <p class="pricing-intro">
+      We offer flexible plans to suit your needs.
+    </p>
+
+    <div class="pricing-cards">
+      <div class="pricing-card">
+        <h2>Basic Plan</h2>
+        <p class="plan-description">
+          Perfect for beginners looking for essential features.
+        </p>
+        <div class="price">
+          $49<span>/month</span>
+        </div>
+        <button class="btn-primary">Get Started</button>
+      </div>
+      <div class="pricing-card">
+        <h2>Premium Plan</h2>
+        <p class="plan-description">
+          Ideal for those who want advanced features and personalized support.
+        </p>
+        <div class="price">
+          $79<span>/month</span>
+        </div>
+        <button class="btn-primary">Get Started</button>
+      </div>
+      <div class="pricing-card">
+        <h2>Ultimate Plan</h2>
+        <p class="plan-description">
+          All-inclusive plan with maximum benefits and priority support.
+        </p>
+        <div class="price">
+          $99<span>/month</span>
+        </div>
+        <button class="btn-primary">Get Started</button>
+      </div>
+    </div>
+  </section>
+  <section class="comparison-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Features</th>
+          <th>Basic Plan</th>
+          <th>Premium Plan</th>
+          <th>Ultimate Plan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nutrition Planner</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Audio/Video Content</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Chat Support</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Meal Planning & Tracking</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Personal Coach</td>
+          <td>–</td>
+          <td>✔</td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Customized Resources & Guides</td>
+          <td>–</td>
+          <td>✔</td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Community Support & Peer Suggestions</td>
+          <td>–</td>
+          <td>–</td>
+          <td>✔</td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  
+<!-- Contact Section -->
+ 2
+  <main id="Contact" class="contact">
+
+    <section  class="contact-section">
+    <h1>Contact Us</h1>
+    <p>
+      Have any questions, feedback, or concerns about Nutrition Planner? 
+      Our dedicated team is here to provide the support you need on your nutritional journey.
+      Please reach out to us using any of the following methods or the form below.
+    </p>
+
+    <div class="contact-details">
+   
+      <div class="contact-card">
+        <img src="image/09.png" alt="Email Icon" />
+        <p>support@nutriplanner.com</p>
+      </div>
+      <div class="contact-card">
+        <img src="image/10.png" alt="Phone Icon" />
+        <p>+91 00000 00000</p>
+      </div>
+      <div class="contact-card">
+        <img src="image/11.png" alt="Location Icon" />
+        <p>Somewhere in the World</p>
+      </div>
+    </div>
+    <div class="contact-form-container">
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Enter your name" 
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input 
+            type="text" 
+            id="phone" 
+            name="phone" 
+            placeholder="Enter your phone number"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Enter your email" 
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Enter your Message</label>
+          <textarea 
+            id="message" 
+            name="message" 
+            rows="4" 
+            placeholder="Type your message..."
+          ></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div class="map">
+        <img src="image/12.png" alt="Map" />
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="image/Nutrition_Planner-removebg-preview.png" alt="Nutrition Planner Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Works">Works</a></li>
+                    <li><a href="#Custom">Custom Plan</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-links2">
+                <ul>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                    <li><a href="#Signup">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p>Email: contact@electro.com</p>
+                <p>Phone: +91 9999999999</p>
+            </div>
+        </div> 
+  </footer>
+</body>
+</html>
